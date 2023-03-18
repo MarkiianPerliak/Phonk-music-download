@@ -1,0 +1,44 @@
+ul{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-list{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.header-link{
+    text-decoration: none;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #7D7D7D;
+font-size: 45px;
+}
+.header-link:hover{
+  color: #03A9F4  ;  
+}
+.header{
+    padding-top: 71px;
+    padding-bottom: 92px;
+    background-color: #faf0e6;
+    padding: 50px;
+}
+.videoyt {
+    display: flex;
+    flex-wrap: wrap;
+}
+.legendary-phonk {
+    font-size: 45px;
+    background-image:linear-gradient( to left bottom, yellow, skyblue, pink, lightgreen) ;
+    color: white;
+    text-align: center;
+}
+.maintext {
+    font-size: 80px;
+}
